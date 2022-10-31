@@ -11563,7 +11563,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 90%, #000 100%), url("../assets/img/fotos/field_and_forest_1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11605,44 +11605,105 @@ body {
   }
 }
 
-.about-section {
-  padding-top: 10rem;
+.mission-section {
+  padding-top: 5rem 0;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
-.about-section p {
-  margin-bottom: 5rem;
+.mission-section p {
+  margin-bottom: 2rem;
 }
 
-.projects-section {
-  padding: 10rem 0;
+.platform-section {
+  padding-top: 5rem;
+  background-color: black;
 }
-.projects-section .featured-text {
+.platform-section p {
+  margin-bottom: 2rem;
+}
+
+.platform-parts-section {
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.platform-parts-section .featured-text {
   padding: 2rem;
 }
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .platform-parts-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.projects-section .project-text {
+.platform-parts-section .platform-parts-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .platform-parts-section .platform-parts-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .platform-parts-section .platform-parts-text hr {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
   }
 }
 
+.platform-parts-img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.about-section {
+  padding-top: 5rem;
+  background-color: black;
+}
+.about-section p {
+  margin-bottom: 2rem;
+}
+
+.about-parts-section {
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.about-parts-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .about-parts-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.about-parts-section .about-parts-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .about-parts-section .about-parts-text {
+    padding: 5rem;
+  }
+  .about-parts-section .about-parts-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+.image-helper {
+  text-align: center;
+  line-height: 300px;
+}
+
+.about-parts-img {
+  vertical-align: middle;
+  width: 50%;
+}
+
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/fotos/lake_and_forest_2_fav.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11660,7 +11721,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 10rem;
 }
 .contact-section .card {
   border: 0;
