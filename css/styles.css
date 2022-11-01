@@ -11563,7 +11563,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 90%, #000 100%), url("../assets/img/fotos/field_and_forest_1.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.4) 90%, #000 100%), url("../assets/img/fotos/field_and_forest_1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11607,9 +11607,17 @@ body {
 
 .mission-section {
   padding-top: 5rem 0;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background-color: black;
 }
 .mission-section p {
+  margin-bottom: 2rem;
+}
+
+.mission-statement-section {
+  padding-top: 2rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+.mission-statement-section p {
   margin-bottom: 2rem;
 }
 
@@ -11651,7 +11659,7 @@ body {
 
 .platform-parts-img {
   vertical-align: middle;
-  width: 100%;
+  width: 50%;
 }
 
 
