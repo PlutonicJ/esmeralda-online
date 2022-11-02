@@ -1,3 +1,7 @@
+#site-head {
+    background-color: #FFA959;
+}
+
 .post-holder.odd {
     background-color: #FFA959;
 }
@@ -5,3 +9,11 @@
 .btn.site-menu {
     background-color: #FFA959;
 }
+
+a.btn {
+    background-color: #732E10;
+  }
+
+  a.btn:hover {
+    background-color: #732E10;
+  }
