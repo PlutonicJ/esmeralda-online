@@ -19,10 +19,18 @@ a.btn {
   }
 
   #site-head-content {
-    margin-top: -11em !important;
+    background-position-x: right !important;
+    background-position-y: bottom !important;
+    padding-top: 5em;
   }
 
-  a.fn-item.active {
+  #site-head-content img {
+    -webkit-filter: drop-shadow(2px 2px 2px #111111);
+    filter: drop-shadow(2px 2px 2px #111111);
+    min-width: 500px;
+  }
+
+a.fn-item.active {
     color: #732E10;
 }
 a.fn-item:hover {
