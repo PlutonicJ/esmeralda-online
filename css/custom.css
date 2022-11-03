@@ -17,3 +17,14 @@ a.btn {
   a.btn:hover {
     background-color: #732E10;
   }
+
+  #site-head-content {
+    margin-top: -11em !important;
+  }
+
+  a.fn-item.active {
+    color: #FFA959;
+}
+a.fn-item:hover {
+    color: #732E10;
+}
