@@ -27,7 +27,6 @@ a.btn {
   #site-head-content img {
     -webkit-filter: drop-shadow(2px 2px 2px #111111);
     filter: drop-shadow(2px 2px 2px #111111);
-    min-width: 500px;
   }
 
 a.fn-item.active {
